@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Api Base Arquitecture",
   "main": "index.js",
-
-
-  
   "scripts": {
     "test": "node --test test/env_test.js",
     "test_mocha": "mocha test/env_test.js",
@@ -33,9 +30,9 @@
   },
   "devDependencies": {
     "cypress-mochawesome-reporter": "^3.8.2",
-    "mocha": "^11.1.0",
+    "mocha": "^11.7.5",
     "mocha-junit-reporter": "^2.2.1",
-    "mochawesome": "^7.1.3",
+    "mochawesome": "^7.1.4",
     "nodemon": "^2.0.20"
   }
 }
